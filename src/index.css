@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  font-size: 62.5%;
+  max-width: 380px;
+  margin: auto;
+}
+body {
+  border: 1px solid black;
+  padding: 3px;
+  min-height: 100vh;
+  max-height: max-content;
+}
