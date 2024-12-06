@@ -1,0 +1,26 @@
+{
+  "name": "backendupdated",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "base64url": "^3.0.1",
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "google-auth-library": "^9.15.0",
+    "googleapis": "^144.0.0",
+    "mongoose": "^8.8.2",
+    "node-cron": "^3.0.3",
+    "node-fetch": "^3.3.2",
+    "nodemon": "^3.1.7"
+  }
+}
